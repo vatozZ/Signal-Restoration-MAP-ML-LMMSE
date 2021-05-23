@@ -5,7 +5,7 @@
 %     Maximum A-Posteriori Estimation 
 %     Linear MMSE estimation
 
-%     STUDENT : ALi ihsan GÜLLÜ
+%     STUDENT : ALi ihsan GÃœLLÃœ
 %     ID : 161024013
 %     Github: https://github.com/vatozZ
 
@@ -73,7 +73,7 @@ for i = 1:4
         legend();
         PSNR_dB_MAP_10 = 20*log10(max(x)*sqrt(256)/(norm(x - x_MAP)));
     end
-    if i == 2
+    if i == 3
         cov_X = 100 * (L.') * L ;    
         x_MAP = inv((H.') * H + var_W * cov_X) * (H.') *  y  +zeros(256);
         plot(x, 'Color', 'k','LineWidth',3, 'DisplayName', 'x ground truth');
@@ -87,7 +87,7 @@ for i = 1:4
         legend();
         PSNR_dB_MAP_100 = 20*log10(max(x)*sqrt(256)/(norm(x - x_MAP)));
     end
-    if i == 2
+    if i == 4
         cov_X = 1000 * (L.') * L ;    
         x_MAP = inv((H.') * H + var_W * cov_X) * (H.') *  y  +zeros(256);
         plot(x, 'Color', 'k','LineWidth',3, 'DisplayName', 'x ground truth');
