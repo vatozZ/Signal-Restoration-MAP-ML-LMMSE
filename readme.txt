@@ -4,8 +4,8 @@ Gebze Technical University
 ELEC#462 Statistical Signal Processing Term Project
 
 Project Name: Signal Restoration
-Profesor: Sir K. Kayabol
-Author: 
+Profesor: Sir Professor K. Kayabol
+Author: VatozZ
 
 Signal restoration and performance comparision between ; 
 1) Maximum Likelihood Estimator
