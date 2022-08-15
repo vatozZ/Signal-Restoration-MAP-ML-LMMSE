@@ -5,8 +5,8 @@
 %     Maximum A-Posteriori Estimation 
 %     Linear MMSE estimation
 
-%     STUDENT : ALi ihsan GÜLLÜ
-%     ID : 161024013
+%     STUDENT : %% 
+%     ID : %%
 %     Github: https://github.com/vatozZ
 
 close all; clear all; clc;
